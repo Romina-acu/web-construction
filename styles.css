@@ -1,0 +1,233 @@
+* {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+:root{
+    --dark-green: #001C1A;
+    --white: #fafafa;
+    --yellow:#E2A344;
+    --font-family: 'Montserrat', sans-serif;
+    
+}
+
+body {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*NAVBAR*/
+.navbar{
+    
+    height: 100%;
+    background-color:var(--dark-green);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar.logo.img {
+    width: 100%;
+    max-width: 150px;
+    min-width: 65px;
+    max-height: 40px ;
+}
+
+.menu{
+    height: 100%;
+    font-size: 20px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+.menu ul li {
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    border: 1px solid transparent;
+    transition: 0, 0.3s;
+}
+
+.menu ul li:hover {
+    border-bottom: 1px solid var(--white);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--font-family);
+}
+
+h2 {
+    font-size: x-large;
+    }
+
+/*Hero section styles*/
+.container-text{
+    width: 60%;
+    height: 60%;
+    background-color: #fafafa;
+    opacity: 70%;
+}  
+
+.hero_section {
+    position: relative;
+    padding: 150px;
+    font-size: 2rem;
+    background-image: url("./img/interior-with-bid-dining-room-of-modern-private-house.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+span {
+    font-weight: bold;
+}
+
+/***************Sección servicios*******/
+.container_servicios {
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    row-gap: 0px;
+    justify-items: center;
+    align-items: center;
+}
+
+.section_title {
+   box-sizing: border-box;
+}
+
+.img {
+    text-align: center;
+}
+
+.picture {
+    max-width: 70%;
+}
+
+.description {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+/****************Formulario**************/
+ .container {
+     background-color: var(--dark-green);
+     margin-top: 100px;
+ 
+ }
+
+ .section_title {
+     padding: 100px 100px;
+     
+ }
+
+
+ body{
+    
+    font-family: 'quicksand';
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+}  
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuadro_login{
+    width: 50%;
+    height: 60%;
+    background-color: var(--yellow);
+    border-radius: 2%;
+}
+
+.container_form{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container-input {
+    margin: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+label{
+    color: black;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+input{
+    width: 70%;
+    border-radius: 60px;
+    height: 40px;
+    border: none;
+    padding: 0 20px;
+
+}
+ 
+button{
+    font-family: 'quicksand';
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    margin-top: 2px;
+    padding: 15px 32px;
+    background-color: var(--dark-green);
+    color: white;
+    border-radius: 60px;
+    border: none;
+    text-align: center;
+    
+
+}
+
+textarea {
+    padding: 30px;
+}
+
